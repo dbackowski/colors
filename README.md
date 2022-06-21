@@ -20,7 +20,7 @@ import (
 )
 
 func main() {
-  fmt.Println(colors.Colorize("FgBlack", colors.FgBlack))
+	fmt.Println(colors.Colorize("FgBlack", colors.FgBlack))
 	fmt.Println(colors.Colorize("FgRed", colors.FgRed))
 	fmt.Println(colors.Colorize("FgGreen", colors.FgGreen))
 	fmt.Println(colors.Colorize("FgYellow", colors.FgYellow))
@@ -38,6 +38,7 @@ func main() {
 	fmt.Println(colors.Colorize("BgCyan", colors.Default, colors.BgCyan))
 	fmt.Println(colors.Colorize("BgWhite", colors.Default, colors.BgWhite))
 }
+
 ```
 
 ![screenshot](https://i.imgur.com/LheCsFW.png)
