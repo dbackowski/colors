@@ -1,4 +1,4 @@
-# colors
+# colors ![Tests](https://github.com/dbackowski/colors/actions/workflows/test.yml/badge.svg)
 
 Very simple go library for rendering colors in terminal.
 
