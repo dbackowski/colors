@@ -1,6 +1,7 @@
 # colors ![Tests](https://github.com/dbackowski/colors/actions/workflows/test.yml/badge.svg)
 
-Very simple go library for rendering colors in terminal.
+Very simple GO library for rendering colors in the terminal.
+Does not currently support the windows platform.
 
 ### Install
 

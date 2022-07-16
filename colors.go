@@ -1,5 +1,7 @@
 package colors
 
+import "runtime"
+
 const (
 	FgBlack   = "30"
 	FgRed     = "31"
@@ -22,6 +24,10 @@ const (
 )
 
 func Colorize(text string, fgColor string, params ...string) string {
+	if runtime.GOOS == "windows" {
+		return text
+	}
+
 	var color string
 
 	if len(params) > 0 {
